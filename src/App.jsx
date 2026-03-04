@@ -3,8 +3,8 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 // ═══════════════════════════════════════════════════════════════
 // CONFIGURACIÓN SUPABASE — Reemplaza con tus credenciales reales
 // ═══════════════════════════════════════════════════════════════
-const SUPABASE_URL = "https://TU-PROYECTO.supabase.co";
-const SUPABASE_ANON_KEY = "TU_ANON_KEY_AQUI";
+const SUPABASE_URL = "https://epzmprugpupxareufmsj.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVwem1wcnVncHVweGFyZXVmbXNqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI1NzExOTgsImV4cCI6MjA4ODE0NzE5OH0.RtbUahwWGcaWUBeQr9amJOZEeaF0zs08yycQKTMzRpg";
 
 // ═══════════════════════════════════════════════════════════════
 // CLIENTE SUPABASE LIGERO (sin SDK — fetch directo)
